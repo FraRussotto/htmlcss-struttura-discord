@@ -5,11 +5,12 @@
 }
 
 .container{
-  margin: 10px auto;
+  margin: 0px auto;
   width: 70%;
 }
 
 .header-container{
+  margin: 10px auto;
   background-color: rgb(218, 165, 32); 
 }
 
@@ -24,6 +25,13 @@
 .flex{
   display: flex;
 }
+
+.flex-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Header */
 
 .logo{
   border: 1px dashed black;
@@ -40,6 +48,10 @@
   padding: 5px;
 }
 
+/* /Header */
+
+/* Main-link */
+
 .main-link{
   background-color: rgb(0, 0, 139);
   height: 350px;
@@ -51,7 +63,47 @@
 
 .boxrosa{
   width: 50%;
-  height: 300px;
+  height: 90%;
   background-color: rgb(238, 130, 238);
   border: 1px dashed black;
 }
+
+/* /Main-link */
+
+/* Section alternate */
+
+.bkgwhite{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.blupink-container{
+  width: 70%;
+  height: 90%;
+  border: 1px dashed black;
+}
+
+.blupink-container .blu{
+  background-color: rgb(30, 144, 255);
+  border: 1px dashed black;
+  width: 60%;
+}
+
+.blupink-container .pink{
+  background-color: rgb(255, 192, 203);
+  border: 1px dashed black;
+  width: 40%;
+}
+
+.bkggrey{
+  background-color: rgb(211, 211, 211);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* /Section alternate */
