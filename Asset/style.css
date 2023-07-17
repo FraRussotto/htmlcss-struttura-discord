@@ -9,6 +9,17 @@
   width: 70%;
 }
 
+.flex{
+  display: flex;
+}
+
+.flex-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Header */
+
 .header-container{
   margin: 10px auto;
   background-color: rgb(218, 165, 32); 
@@ -21,17 +32,6 @@
   padding: 5px;
 
 }
-
-.flex{
-  display: flex;
-}
-
-.flex-reverse{
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-/* Header */
 
 .logo{
   border: 1px dashed black;
@@ -107,3 +107,20 @@
 }
 
 /* /Section alternate */
+
+/* Section Download */
+
+.download{
+background-color: rgb(211, 211, 211);
+height: 800px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.boxgreen{
+  background-color: green;
+  height: 90%;
+}
+
+/* /Section Download */
