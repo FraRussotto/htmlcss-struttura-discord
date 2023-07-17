@@ -136,8 +136,8 @@ align-items: center;
 }
 
 .infobox{
-  margin-top: 10px;
-  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   display: flex;
   width: 70%;
 }
@@ -154,8 +154,32 @@ align-items: center;
 
 .grow{
   background-color: rgb(32, 178, 170);
-  border: 1px dashed black;
+  border: 1px dashed white;
   padding: 20px;
 }
 
 
+.banner{
+  height: 50px;
+  background-color: rgb(35, 39, 42);
+  justify-content: space-between;
+}
+
+.foot{
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+.logo-bottom{
+  background-color: rgb(255, 182, 193);
+  border: 1px dashed black;
+  margin: 10px 0px;
+  padding: 5px;
+}
+
+.register{
+  background-color: rgb(255, 182, 193);
+  border: 1px dashed black;
+  margin: 10px 0px;
+  padding: 5px;
+}
